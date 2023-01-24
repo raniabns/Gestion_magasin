@@ -1,7 +1,10 @@
 package gestion_magasin;
 
 import java.util.Date;
-
+/**
+*
+* @author rania
+*/
 public class ProduitAliementaire {
 	  private int identifiant;
 	    private String libelle, marque;
