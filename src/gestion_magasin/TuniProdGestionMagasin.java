@@ -11,4 +11,6 @@ public class TuniProdGestionMagasin {
 	        produit2.afficher();
 	        produit3.afficher();
 	        produit4.afficher();
-	        produit5.afficher();	  }}
+	        produit5.afficher();
+	      }}
+	     
