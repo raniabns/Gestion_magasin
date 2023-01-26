@@ -75,6 +75,24 @@ public class ProduitAliementaire {
 	        System.out.println("prix : "+this.prix);
 	        System.out.println("------------------------");
 	    }
+	    @Override
+	    public String toString(){
+	        String s = " ---------------------- \n";
+	        s+="identifiant : "+this.identifiant+"\n";
+	        s+="libelle : "+this.libelle+"\n";
+	        s+="marque : "+this.marque+"\n";
+	        s+="prix : "+this.prix+"\n";
+	        return s;
+	    }
 	    
+	    
+	    public void affecterPrix(float  price){
+	        if(price>=0){
+	            this.prix = price;
+	        }
+	        else{
+	            System.out.println("le prix est négatif !!");
+	        }
+	    }
 
 }
