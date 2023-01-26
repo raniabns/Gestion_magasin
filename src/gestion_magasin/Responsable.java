@@ -1,10 +1,14 @@
 package gestion_magasin;
 /**
  * author : Mohamed Omar Skhiri **/
-public class Responsable {
+public class Responsable extends Employe {
     float prime;
+    public Responsable(float prime, int identifiant, String adresse, String nom, int nbrHeure) {
+        super(identifiant, adresse, nom, nbrHeure);
+        this.prime = prime;
+    }
 
-    //Im just waiting for employee CLass
+    //getSalary function to do
 
 
     @Override
