@@ -14,4 +14,8 @@ public class vendeur {
 	        this.tauxDeVente = tauxDeVente;
 	    
 }
+	    @Override
+	    public String toString() {
+	        return "Vendeur{" + "tauxDeVente=" + tauxDeVente + '}' + " " + super.toString();
+	    }
 	}
