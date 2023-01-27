@@ -77,7 +77,7 @@ public class Magasin {
         return -1;
     }
 
-   /* public void supprimerProduit(ProduitAliementaire produit) {
+    public void supprimerProduit(ProduitAliementaire produit) {
         int indexProduit = this.getIndexOfProduit(produit);
         if (indexProduit == -1) {
             System.out.println("impossible de supprimer un produit qui n'existe pas dans le magasin");
@@ -99,7 +99,7 @@ public class Magasin {
                 && produit2.getPrix() == produit.getPrix()
                 && produit2.getLibelle() == produit.getLibelle();
     }
-
+/*
     public boolean chercher(ProduitAliementaire produit) {
         for (int i = 0; i < this.capacite; i++) {
             if (this.produits[i].comparer(produit)) {
