@@ -8,8 +8,22 @@ public class Responsable extends Employe {
         this.prime = prime;
     }
 
-    //getSalary function to do
-
+    @Override
+    public float getSalaireEmploye() {
+        float salaire = 0;
+        int nbrHeureSup = 0;
+        int nbrDeBase = 0;
+        if (nbrHeure > 160) {
+            nbrHeureSup = nbrHeure - 160;
+            nbrDeBase = 160;
+        } else {
+            nbrHeureSup = 0;
+            nbrDeBase = nbrHeure;
+        }
+        salaire = (float) ((nbrDeBase * 10) + (10 * 1.2 * nbrHeureSup));
+        salaire += prime;
+        return salaire;
+    }
 
     @Override
     public String toString() {
