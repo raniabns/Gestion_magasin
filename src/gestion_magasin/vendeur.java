@@ -1,6 +1,4 @@
-package gestion_magasin;
 
-public class vendeur {
 	
 	package tn.tuniprod.gestionmagasin;
 
@@ -18,4 +16,5 @@ public class vendeur {
 	    public String toString() {
 	        return "Vendeur{" + "tauxDeVente=" + tauxDeVente + '}' + " " + super.toString();
 	    }
-	}
+	
+}
