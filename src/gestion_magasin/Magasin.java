@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tn.tuniprod.gestionmagasin;
+package gestion_magasin;
 
 /**
  *
@@ -54,7 +54,7 @@ public class Magasin {
         return s + prods + "\n" + empl;
     }
 
-    public void ajouterProduit(ProduitAliementaire produit) {
+   public void ajouterProduit(ProduitAliementaire produit) {
         if (this.chercher(produit)) {
             System.out.println("Produit existant");
         } else {
@@ -68,7 +68,7 @@ public class Magasin {
         this.nbrEmploye++;
     }
 
-    public int getIndexOfProduit(ProduitAliementaire produit) {
+  /public int getIndexOfProduit(ProduitAliementaire produit) {
         for (int i = 0; i < this.capacite; i++) {
             if (this.produits[i].comparer(produit)) {
                 return i;
@@ -99,8 +99,15 @@ public class Magasin {
                 && produit2.getPrix() == produit.getPrix()
                 && produit2.getLibelle() == produit.getLibelle();
     }
-/*
-    public boolean chercher(ProduitAliementaire produit) {
+    public Magasin comparer(Magasin m) {
+        if (this.capacite >= m.capacite) {
+            return this;
+        } else {
+            return m;
+        }
+    }
+
+   public boolean chercher(ProduitAliementaire produit) {
         for (int i = 0; i < this.capacite; i++) {
             if (this.produits[i].comparer(produit)) {
                 return true;
@@ -109,13 +116,7 @@ public class Magasin {
         return false;
     }
 
-   /* public Magasin comparer(Magasin m) {
-        if (this.capacite >= m.capacite) {
-            return this;
-        } else {
-            return m;
-        }
-    }
+ 
 
     public void afficherEmployes() {
         for (int i = 0; i < nbrEmploye; i++) {
@@ -123,4 +124,4 @@ public class Magasin {
         }
     }
 
-} */
+} 
