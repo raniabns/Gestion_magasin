@@ -108,7 +108,7 @@ public class Magasin {
     }
 
    public boolean chercher(ProduitAliementaire produit) {
-        for (int i = 0; i < this.capacite; i++) {
+        for (int i =c 0; i < this.capacite; i++) {
             if (this.produits[i].comparer(produit)) {
                 return true;
             }
