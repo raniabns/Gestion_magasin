@@ -1,5 +1,8 @@
 package gestion_magasin;
 
+import gestion_magasin.Magasin;
+import gestion_magasin.ProduitAliementaire;
+
 public class TuniProdGestionMagasin {
 	  public static void main(String[] args) {
 
@@ -11,4 +14,22 @@ public class TuniProdGestionMagasin {
 	        produit2.afficher();
 	        produit3.afficher();
 	        produit4.afficher();
-	        produit5.afficher();	  }}
+	        produit5.afficher();
+	        Magasin m1 = new Magasin(12345, "El Aouina");
+//	        System.out.println(m1);
+
+	        m1.ajouterProduit(produit1);
+	        m1.ajouterProduit(produit2);
+	        m1.ajouterProduit(produit3);
+	        m1.ajouterProduit(produit4);
+	        m1.supprimerProduit(new ProduitAliementaire(98798, "qsd", "qsd"));
+	        System.out.println(m1);
+
+	        //---------------------------
+	        Magasin carrefour = new Magasin(1, "Carrefour", "Centre-ville");
+	        Magasin monoprix = new Magasin(2, "Monoprix", "Menzah6");	     
+	  
+	  
+	  
+	  }}
+	     
