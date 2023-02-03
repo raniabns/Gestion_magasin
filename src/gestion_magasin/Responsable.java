@@ -25,6 +25,14 @@ public class Responsable extends Employe {
         return salaire;
     }
 
+
+    /**
+      public void displayMessage() {
+          System.out.println("Responsable{" + "prime=" + this.prime + '}');
+     }
+     **/
+
+
     @Override
     public String toString() {
         return "Responsable{" + "prime=" + prime + '}' + " " + super.toString();
