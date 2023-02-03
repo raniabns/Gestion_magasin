@@ -109,7 +109,7 @@ public class Magasin {
         return false;
     }
 
-   /* public Magasin comparer(Magasin m) {
+   public Magasin comparer(Magasin m) {
         if (this.capacite >= m.capacite) {
             return this;
         } else {
@@ -123,4 +123,4 @@ public class Magasin {
         }
     }
 
-} */
+} 
