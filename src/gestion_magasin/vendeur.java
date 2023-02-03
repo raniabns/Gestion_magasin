@@ -18,3 +18,12 @@
 	    }
 	
 }
+	 public float getSalaireEmploye() {
+	        float salaire = 0;
+
+	        salaire = (450 * (tauxDeVente / 100)) + 450;
+	        
+	        return salaire;
+	    }
+
+	}
