@@ -28,6 +28,12 @@ public class Caissier  extends Employe{
         return salaire;
     }
 
+public void afficher() {
+    System.out.println("Largeur : " +width+ ", hauteur : " +height);
+}
+public String toString() {
+    return "Largeur : " +width+ ", hauteur : " +height;
+}
     
     
     
