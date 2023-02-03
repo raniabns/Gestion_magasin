@@ -110,10 +110,14 @@ public class Magasin {
         return false;}}
     
 
-   /* public Magasin comparer(Magasin m) {
+
+    public Magasin comparer(Magasin m) {
 =======
     public Magasin comparer(Magasin m) {
->>>>>>> 810c91e22612530d5ba0583e747263d0782f575e
+
+
+   public Magasin comparer(Magasin m) {
+ NewBranchAlaa
         if (this.capacite >= m.capacite) {
             return this;
         } else {
