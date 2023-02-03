@@ -107,8 +107,8 @@ public class Magasin {
                 return true;
             }
         }
-        return false;
-    }
+        return false;}}
+    
 
    /* public Magasin comparer(Magasin m) {
 =======

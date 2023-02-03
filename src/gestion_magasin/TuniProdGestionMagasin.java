@@ -2,6 +2,7 @@ package gestion_magasin;
 
 import gestion_magasin.Magasin;
 import gestion_magasin.ProduitAliementaire;
+import tn.tuniprod.gestionmagasin.Caissier;
 
 public class TuniProdGestionMagasin {
 	  public static void main(String[] args) {
@@ -28,7 +29,8 @@ public class TuniProdGestionMagasin {
 	        //---------------------------
 	        Magasin carrefour = new Magasin(1, "Carrefour", "Centre-ville");
 	        Magasin monoprix = new Magasin(2, "Monoprix", "Menzah6");	     
-	  
+	        Caissier caissierC1 = new Caissier(5, 123456, "Ariana", "Mahamed", 36);
+	        Caissier caissierC2 = new Caissier(2, 894679, "Tunis", "Ali", 40);
 	  
 	  
 	  }}
