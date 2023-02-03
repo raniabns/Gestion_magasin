@@ -17,7 +17,7 @@ public class TuniProdGestionMagasin {
 	        produit4.afficher();
 	        produit5.afficher();
 	        Magasin m1 = new Magasin(12345, "El Aouina");
-//	        System.out.println(m1);
+         System.out.println(m1);
 
 	        m1.ajouterProduit(produit1);
 	        m1.ajouterProduit(produit2);
@@ -25,10 +25,9 @@ public class TuniProdGestionMagasin {
 	        m1.ajouterProduit(produit4);
 	        m1.supprimerProduit(new ProduitAliementaire(98798, "qsd", "qsd"));
 	        System.out.println(m1);
-
-	        //---------------------------
 	        Magasin carrefour = new Magasin(1, "Carrefour", "Centre-ville");
 	        Magasin monoprix = new Magasin(2, "Monoprix", "Menzah6");	     
+	        Vendeur vendeurC1 = new Vendeur(10, 849895, "Charguia", "Nihel", 50);
 	        Caissier caissierC1 = new Caissier(5, 123456, "Ariana", "Mahamed", 36);
 	        Caissier caissierC2 = new Caissier(2, 894679, "Tunis", "Ali", 40);
 	  
