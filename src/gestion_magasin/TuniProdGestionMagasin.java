@@ -28,7 +28,7 @@ public class TuniProdGestionMagasin {
 	        //---------------------------
 	        Magasin carrefour = new Magasin(1, "Carrefour", "Centre-ville");
 	        Magasin monoprix = new Magasin(2, "Monoprix", "Menzah6");	     
-	  
+	        Vendeur vendeurC1 = new Vendeur(10, 849895, "Charguia", "Nihel", 50);
 	  
 	  
 	  }}
