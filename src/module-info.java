@@ -1,2 +1,0 @@
-module gestion_magasin {
-}
