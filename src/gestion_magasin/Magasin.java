@@ -117,7 +117,6 @@ public class Magasin {
 
 
    public Magasin comparer(Magasin m) {
- NewBranchAlaa
         if (this.capacite >= m.capacite) {
             return this;
         } else {
@@ -125,7 +124,7 @@ public class Magasin {
         }
     }
 
-   public boolean chercher(ProduitAliementaire produit) {
+ /*  public boolean chercher(ProduitAliementaire produit) {
         for (int i =c 0; i < this.capacite; i++) {
             if (this.produits[i].comparer(produit)) {
                 return true;
@@ -133,7 +132,7 @@ public class Magasin {
         }
         return false;
     }
-
+*/
  
 
     public void afficherEmployes() {
