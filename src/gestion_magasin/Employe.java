@@ -1,5 +1,5 @@
 package gestion_magasin;
-
+//commentaire
 public abstract class Employe {
 	int identifiant;
     String adresse;
